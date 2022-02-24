@@ -1,0 +1,13 @@
+.navigation_list {
+    border-bottom: solid 1px #ccc;
+    padding: 20px 10px;
+    text-align: right;
+  }
+  ul li{
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 25px;
+    }
+article{
+    margin: 10%;
+}
