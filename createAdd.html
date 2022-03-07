@@ -11,15 +11,7 @@
             </head>
             <body>
                 <main>
-                    <nav class="navigation">
-                        <div>
-                        <ul class="navigation_list">
-                            <li><a href="./addList.html" id="listElement">Lista de anuncios</a></li>
-                            <li><a href="./createAdd.html" id="listElement">Crear anuncio</a></li>
-                            <li><a href="./login.html" id="listElement">Log in</a></li>
-                            <li><a href="./signup.html" id="listElement">Sign up</a></li>
-                        </ul>
-                        </div>
+                    <div class="navbar"></div>
                     <section>
                         <div class="notification"></div>
                         <form id="addCreation">
@@ -36,7 +28,7 @@
                             </div>
                             <div>    
                                 <label for="price">Precio :</label>
-                                <input  autocomplete="on" type="number" name="price" id="price" placeholder="Precio del producto" required>
+                                <input  autocomplete="on" type="number" name="price" id="price" placeholder="Precio del producto" required min="0">
                             
                             </div>
                             <div>
